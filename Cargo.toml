@@ -25,21 +25,21 @@ netlib = ["netlib-src"]
 openblas = ["openblas-src"]
 
 [dependencies.accelerate-src]
-version = "0.3"
+version = "^0.3"
 optional = true
 
 [dependencies.blis-src]
-version = "0.2"
+version = "^0.2"
 optional = true
 
 [dependencies.intel-mkl-src]
-version = "0.5"
+version = "^0.6"
 optional = true
 
 [dependencies.netlib-src]
-version = "0.8"
+version = "^0.8"
 optional = true
 
 [dependencies.openblas-src]
-version = "0.10"
+version = "^0.10"
 optional = true
